@@ -3,7 +3,7 @@ from dotenv import dotenv_values
 import openai
 import json
 config = dotenv_values('.env')
-openai.api_key = config["API_KEY"]
+openai.api_key = "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"
  
 
 def call_playlist_prompt():

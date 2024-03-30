@@ -8,9 +8,9 @@ def home_view():
         return "<h1>Welcome to Geeks for Geeks have a good time</h1>"
 
 
-@app.route('/post-json', methods=['POST'])
-def handle_json_data():
-    return call_playlist_prompt()
+# @app.route('/post-json', methods=['POST'])
+# def handle_json_data():
+#     return call_playlist_prompt()
 
 
 
